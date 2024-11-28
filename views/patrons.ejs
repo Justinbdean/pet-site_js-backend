@@ -1,0 +1,34 @@
+<div class = "container">
+    <div class = "row">
+        <div class = "title">
+            <h1>
+                Patrons:
+            </h1>
+        </div>
+        <div class = "list">
+            <% patrons.forEach (s=> { %>
+                <div class="patron">
+                    <p>
+                        <span class="item">
+                            Name:
+                        </span>
+                        <%= s.name %>
+                    </p>
+                    <p>
+                        <span class="item">
+                            Email: 
+                        </span>
+                        <%= s.email %>
+                    </p>
+                    <p>
+                        <span class="item">
+                            Animal Type:
+                        </span>
+                        <%= s.animalType %>
+                    </p>
+                    <P>- - - - - -</P>
+                </div>
+            <% }); %>
+        </div>
+    </div>
+</div>

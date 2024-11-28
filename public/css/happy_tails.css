@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Noto Serif", serif;
+    background-color: antiquewhite;
+    color: black;
+    margin: 0;
+    padding-bottom: 2.5rem;
+}
+
+p{
+    font-size: 1vw;
+    text-align: center;
+    font-family: "Noto Serif", serif;
+}
+
+#nav {
+    width: 100%;
+    height: 8vw;
+    text-align: center;
+    border-bottom: solid 10px black;
+    position: absolute;
+}
+
+.nav-title {
+    font-size: 1vw;
+    text-transform: uppercase;
+    font-family: "Noto Serif", serif;
+}
+
+.nav-align {
+    font-size: x-large;
+    color: black;
+    align-items: center;
+}
+
+span {
+    color: black;
+    font-size: 1vw;
+}
+
+.button{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.button:hover {
+    font-weight: bolder;
+}
+
+body {
+    font-family: "Noto Serif", serif;
+}
+
+.container {
+    padding-top: 8vw;
+}
+
+.title {
+    padding-top: 1%;
+    text-align: center;
+    font-size: .8vw;
+}
+
+.text {
+    margin: 2vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+h2{
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+input{
+    width: 7vw;
+    height: 1vw;
+}
+
+
+
+/* Images */
+.img_container {
+    height: 100px;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    width: 98%;
+    max-width: none;
+    padding-left: 1vw;
+    padding-right: 3vw;
+}
+
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+
+} 
+
+.gallery__item1 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery__item2 {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery__item3 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery__item4 {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    position: relative;
+    overflow: hidden;
+}
+
+.pet_image {
+    max-width: 30%;
+    max-height: 30%;
+    display: table;
+    margin: 0 auto;
+}

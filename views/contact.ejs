@@ -1,0 +1,32 @@
+<div class = "container">
+    <div class = "row">
+        <div class = "title">
+            <h1>
+                Sign Up For Our News Letter!
+            </h1>
+        </div>
+        <div>
+            <img src="/images/cats.jpg" class = "pet_image">
+        </div>
+        <div class = "text">
+            <h2>
+                Sign up to recieve monthly updates from our newsletter!
+            </h2>
+            <p>
+                Fill out your information below:
+            </p>
+            <form class="newsletter-form" action="/signup" method="post">
+                <input type="text" name="name" placeholder="Name">
+                <input type="email" name="email" placeholder="Email">
+                <label for="animalType">Animal Type: </label>
+                <input list="animalType" name="animalType" placeholder="Animal Type">
+                    <datalist id="animalType">
+                        <option value="Dog">
+                        <option value="Cat">
+                        <option value="No Preference">
+                    </datalist>
+                <input type="submit" name="Submit">
+            </form>
+        </div>
+    </div>
+</div>
